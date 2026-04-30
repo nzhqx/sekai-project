@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile - Project Sekai</title>
+	<style>
+		body { font-family: sans-serif; margin: 0; background: #fafafa; }
+		.cover { width: 100%; height: 200px; background: #00abc0; object-fit: cover; }
+		.container: { width: 800px; margin: -50px auto 0; display: flex; }
+		.sidebar: { width: 250px background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+		.pfp { width: 100px; height: 100px; border-radius: 50%; border: 5px solid white; }
+		.album { flex: 1; background: white; margin-left: 20px; padding: 20px; border-radius: 10px; }
+		.photo-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+		.photo-grid img { width: 100%; height: auto; object-fit: cover; border-radius: 5px; }
+		nav { background: #333; color: white; padding: 10px; text-align: center; }
+		nav a { color: white; text-decoration: none; margin: 0 10px; }
+	</style>
+</head>
+<body>
+
+<nav>
+	<a href="home.html">Back to Home</a>
+	<a href="login.html">Logout</a>
+</nav>
+
+<img src="https://i.pinimg.com/1200x/e9/f2/57/e9f257d76c7c02dd6e924214eb6c73ba.jpg" class="cover" alt="Cover Photo">
+
+<div class="container">
+	<div class="sidebar">
+		<img src="https://i.pinimg.com/736x/48/69/c6/4869c61d8d6ab33ae8592d050bde362a.jpg" class="pfp" alt="Profile Picture">
+		<h3>Hatsune Miku</h3>
+		<p style="color: #777;">@sekai_miku</p>
+		<hr>
+		<p><strong>Followers:</strong> 39,000 | <strong>Following:</strong> 39</p>
+		<p><strong>Bio:</strong> Helping everyone find their true feelings through music. Let's sing together!</p>
+	</div>
+
+	<div class="album">
+		<h3>Photo Album</h3>
+		<div class="photo-grid">
+			<img src="https://i.pinimg.com/736x/33/3c/f7/333cf7737934dd99d425c38dd1a1a0cc.jpg">
+			<img src="https://i.pinimg.com/736x/ba/4e/18/ba4e184192d4127193bc4bba83998e99.jpg">
+			<img src="https://i.pinimg.com/1200x/39/c0/bf/39c0bf5cf6854379a3fa26531a808974.jpg">
+			<img src="https://i.pinimg.com/736x/bd/8a/7c/bd8a7ce8316a650559416eab4bcbe064.jpg">
+			<img src="https://i.pinimg.com/1200x/42/d4/29/42d429fc7d3c0232d2e35c50f666e603.jpg">
+			<img src="https://i.pinimg.com/736x/29/0d/80/290d801a32935e7b663315eda614b461.jpg">
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
